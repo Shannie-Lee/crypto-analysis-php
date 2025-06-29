@@ -1,0 +1,5 @@
+{
+	"name": "PHP Strategy Runner (Manual Build)",
+	"image": "mcr.microsoft.com/devcontainers/php:8.2",
+	"postCreateCommand": "apt-get update && apt-get install -y libzip-dev unzip && docker-php-ext-install zip bcmath sockets"
+}
